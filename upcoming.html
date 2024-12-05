@@ -1,0 +1,49 @@
+<!-- DEVELOPER: Marwa Monsour, IS117-XXX, Spring 2024 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PlanIt - Upcoming Tasks</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">PlanIt</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="plannerDropdown" role="button" data-toggle="dropdown">Planner</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="today.html">Today</a>
+            <a class="dropdown-item" href="upcoming.html">Upcoming</a>
+            <a class="dropdown-item" href="completed.html">Completed</a>
+          </div>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="tips.html">Tips & Tricks</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <button class="btn btn-outline-secondary" id="toggle-mode">Toggle Dark/Light Mode</button>
+  </nav>
+
+  <div class="container mt-4">
+    <h2>Upcoming Tasks</h2>
+    <ul id="tasks-upcoming"></ul>
+  </div>
+
+  <footer class="footer text-center bg-dark text-white mt-4 py-3">
+    <p>&copy; 2024 PlanIt | Terms of Use | Privacy Policy</p>
+  </footer>
+
+  <script src="bootstrap.bundle.min.js"></script>
+  <script src="upcoming.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

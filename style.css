@@ -1,0 +1,95 @@
+/* DEVELOPER: Marwa Monsour, IS117-XXX, Spring 2024 */
+
+/* Light Mode (default) */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Dark Mode */
+  body.dark-mode {
+    background-color: #222;
+    color: white;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #333;
+  }
+  
+  .navbar-dark-mode {
+    background-color: #444;
+  }
+  
+  .navbar-brand, .nav-link {
+    color: white;
+  }
+  
+  .navbar-dark-mode .navbar-brand, .navbar-dark-mode .nav-link {
+    color: white;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff;
+  }
+  
+  /* Jumbotron */
+  .jumbotron {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .jumbotron.dark-mode {
+    background-color: #555;
+  }
+  
+  /* Cards */
+  .card {
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .card.dark-mode {
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+  }
+  
+  .footer.dark-mode {
+    background-color: #444;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar-collapse {
+      text-align: center;
+    }
+  
+    .card {
+      margin-bottom: 20px;
+    }
+  }
+  
